@@ -125,10 +125,28 @@
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &kp RG(W)              &kp RG(R)             &trans  &trans                           &kp RC(UP_ARROW)  &kp RC(RS(TAB))     &kp RC(TAB)          &trans  &trans
+&trans  &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)  &trans  &trans  &trans      &trans       &trans            &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &trans
+&trans  &trans                 &trans                &trans  &trans  &trans      &bootloader  &trans            &kp RG(SPACE)       &kp RA(SPACE)        &trans  &bt BT_CLR
+&trans  &trans                 &trans                &trans  &trans  &trans      &trans       &trans                                                             &bt BT_CLR_ALL
+            >;
+        };
+
+        symbol {
+            bindings = <
+&kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR  &kp PERCENT                        &kt LEFT_BRACE        &kt RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN  &trans
+&kp LCTRL        &kp AMPERSAND  &kp ASTERISK  &trans      &trans       &trans      &kp PLUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE      &kp SEMICOLON     &kp PIPE
+&trans           &trans         &trans        &trans      &trans       &trans      &kp SQT   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE      &trans            &kp NON_US_BACKSLASH
+&trans           &trans         &trans        &trans      &trans       &trans      &trans    &trans                                                                        &trans
+            >;
+        };
+
+        control {
+            bindings = <
+&trans  &trans                &trans                &trans  &trans                                    &trans     &trans     &trans     &trans     &trans
+&trans  &kp LC(A)             &trans                &trans  &kp RC(G)  &trans                 &trans  &kp RC(H)  &kp RC(J)  &kp RC(K)  &kp RC(K)  &trans
+&trans  &kp RS(RC(NUMBER_4))  &kp RS(RG(NUMBER_4))  &trans  &trans     &kp RC(RG(SPACE))      &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans                &trans                &trans  &trans     &trans                 &trans  &trans                                      &trans
             >;
         };
     };
