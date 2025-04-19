@@ -13,7 +13,7 @@
 };
 &lt {
     flavor = "hold-preferred";
-    tapping-term-ms = <200>;
+    tapping-term-ms = <0>;
 };
 
 / {
