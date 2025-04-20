@@ -143,8 +143,8 @@
 
         control {
             bindings = <
-&trans  &kp RC(W)             &kp RC(E)             &kp RC(R)  &kp RC(T)                                                &trans     &trans     &trans     &trans     &trans
-&trans  &kp LC(A)             &kp RC(D)             &trans     &kp RC(G)  &trans                 &trans                 &kp RC(H)  &kp RC(J)  &kp RC(K)  &kp RC(K)  &kp RS(RG(SEMI))
+&trans  &trans                &kp RC(E)             &kp RC(R)  &kp RC(T)                                                &trans     &trans     &trans     &trans     &trans
+&trans  &kp LC(A)             &trans                &trans     &kp RC(G)  &trans                 &trans                 &kp RC(H)  &kp RC(J)  &kp RC(K)  &kp RC(K)  &kp RS(RG(SEMI))
 &trans  &kp RS(RC(NUMBER_4))  &kp RS(RG(NUMBER_4))  &trans     &trans     &kp RC(RG(SPACE))      &kp RS(RG(RA(RC(N))))  &trans     &trans     &trans     &trans     &trans
 &trans  &kp RS(RC(NUMBER_4))  &kp RS(RG(NUMBER_4))  &trans     &trans     &kp RA(TAB)            &trans                 &trans                                      &trans
             >;
