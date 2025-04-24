@@ -67,7 +67,7 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R          &lt 2 T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp Q             &kp W         &kp E             &kp R          &lt 9 T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &lt 8 A           &lt 7 S       &lt 3 D           &lt 5 F        &lt 6 G      &kp COLON               &kp EQUAL            &kp H        &kp J  &lt 2 K    &lt 7 L  &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V          &kp B        &kp UNDERSCORE          &kp DOUBLE_QUOTES    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_COMMAND  &kp BACKSPACE  &lt 2 SPACE  &mt LEFT_WIN LANG2      &mt RIGHT_WIN LANG1  &lt 1 ENTER                             &kp RIGHT_SHIFT
@@ -147,6 +147,15 @@
 &trans     &kp LC(A)             &kp RC(D)             &kp RC(F)  &kp RC(G)  &trans                 &trans                 &kp RC(H)  &kp RC(J)  &kp RC(K)  &kp RC(K)  &kp RS(RG(SEMI))
 &kp RC(Z)  &kp RC(X)             &kp RC(C)             &kp RC(V)  &kp RC(B)  &kp RC(RG(SPACE))      &kp RS(RG(RA(RC(N))))  &kp RC(N)  &kp RC(M)  &trans     &trans     &trans
 &trans     &kp RS(RC(NUMBER_4))  &kp RS(RG(NUMBER_4))  &trans     &trans     &kp RA(TAB)            &trans                 &trans                                      &trans
+            >;
+        };
+
+        window {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &kp RS(RA(RC(LEFT_ARROW)))  &kp RS(RC(UP_ARROW))          &kp RS(RA(RC(UP_ARROW)))     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RS(RC(LEFT_ARROW))      &kp RC(RS(RA(RG(UP_ARROW))))  &kp RS(RC(RIGHT_ARROW))      &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RC(RA(RS(DOWN_ARROW)))  &kp RC(RS(DOWN_ARROW))        &kp RS(RA(RC(RIGHT_ARROW)))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                                         &trans
             >;
         };
     };
