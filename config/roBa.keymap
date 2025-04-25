@@ -117,10 +117,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 ESCAPE  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &to_layer_0 ESCAPE
-&trans              &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans              &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans              &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&to_layer_0 LEFT_SHIFT  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &to_layer_0 LEFT_SHIFT
+&trans                  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans                  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans                  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
@@ -154,7 +154,7 @@
         control {
             bindings = <
 &kp RC(Q)  &kp RC(W)             &kp RC(E)             &kp RC(R)  &kp RC(T)                                                &kp RC(Y)  &kp RC(U)  &kp RC(I)  &kp RC(O)  &kp RC(P)
-&trans     &kp LC(A)             &kp RC(D)             &kp RC(F)  &kp RC(G)  &trans                 &trans                 &kp RC(H)  &kp RC(J)  &kp RC(K)  &kp RC(K)  &kp RS(RG(SEMI))
+&trans     &kp LC(A)             &kp RC(D)             &kp RC(F)  &kp RC(G)  &trans                 &trans                 &kp RC(H)  &kp RC(J)  &kp RC(K)  &kp RC(L)  &kp RS(RG(SEMI))
 &kp RC(Z)  &kp RC(X)             &kp RC(C)             &kp RC(V)  &kp RC(B)  &kp RC(RG(SPACE))      &kp RS(RG(RA(RC(N))))  &kp RC(N)  &kp RC(M)  &trans     &trans     &trans
 &trans     &kp RS(RC(NUMBER_4))  &kp RS(RG(NUMBER_4))  &trans     &trans     &kp RA(TAB)            &trans                 &trans                                      &trans
             >;
