@@ -162,10 +162,10 @@
 
         window {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &kp RS(RA(RC(LEFT_ARROW)))  &kp RS(RC(UP_ARROW))          &kp RS(RA(RC(UP_ARROW)))     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RS(RC(LEFT_ARROW))      &kp RC(RS(RA(RG(UP_ARROW))))  &kp RS(RC(RIGHT_ARROW))      &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RC(RA(RS(DOWN_ARROW)))  &kp RC(RS(DOWN_ARROW))        &kp RS(RA(RC(RIGHT_ARROW)))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                                         &trans
+&trans  &trans  &trans  &trans  &trans                      &kp RG(RA(RC(RS(LEFT_ARROW))))  &kp RS(RA(RC(LEFT_ARROW)))  &kp RS(RC(UP_ARROW))          &kp RS(RA(RC(UP_ARROW)))     &kp RG(RC(RA(RS(UP_ARROW))))
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &kp RS(RC(LEFT_ARROW))      &kp RC(RS(RA(RG(UP_ARROW))))  &kp RS(RC(RIGHT_ARROW))      &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RC(RG(RA(RS(DOWN_ARROW))))  &kp RC(RA(RS(DOWN_ARROW)))  &kp RC(RS(DOWN_ARROW))        &kp RS(RA(RC(RIGHT_ARROW)))  &kp RS(RA(RG(RC(RIGHT_ARROW))))
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                                                                 &trans
             >;
         };
     };
