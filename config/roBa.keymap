@@ -23,22 +23,12 @@
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <10 11>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+            key-positions = <13 12>;
         };
 
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
-        };
-
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
         };
 
         mouseL {
