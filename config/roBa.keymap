@@ -26,11 +26,6 @@
             key-positions = <13 12>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-
         mouseL {
             bindings = <&mkp MB1>;
             key-positions = <18 19>;
@@ -39,6 +34,11 @@
         mouseR {
             bindings = <&mkp MB2>;
             key-positions = <19 20>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
         };
     };
 
