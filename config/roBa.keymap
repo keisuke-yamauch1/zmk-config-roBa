@@ -40,6 +40,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
+
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <6 5>;
+        };
     };
 
     macros {
