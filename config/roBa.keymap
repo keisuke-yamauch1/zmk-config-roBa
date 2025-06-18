@@ -122,7 +122,7 @@
         SCROLL {
             bindings = <
 &trans  &kp RG(W)              &kp RG(R)             &trans  &trans                      &kp RC(UP_ARROW)  &kp RC(RS(TAB))     &kp RC(TAB)          &trans  &trans
-&trans  &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)  &trans  &trans  &trans      &trans  &trans            &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &trans
+&trans  &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)  &trans  &trans  &trans      &trans  &trans            &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &kp RG(SEMICOLON)
 &trans  &trans                 &trans                &trans  &trans  &trans      &trans  &trans            &kp RG(SPACE)       &kp RA(SPACE)        &trans  &trans
 &trans  &trans                 &trans                &trans  &trans  &trans      &trans  &trans                                                             &trans
             >;
