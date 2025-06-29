@@ -17,7 +17,7 @@ layers:
   - {t: F, h: SCROLL}
   - {t: G, h: MOUSE}
   - ':'
-  - {t: 'Gui+,', h: FUNCTION}
+  - {t: ',', h: FUNCTION}
   - {t: H, h: window}
   - {t: J, h: ARROW}
   - {t: K, h: NUM}
