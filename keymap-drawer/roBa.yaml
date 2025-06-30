@@ -16,7 +16,7 @@ layers:
   - {t: D, h: ARROW}
   - {t: F, h: SCROLL}
   - {t: G, h: MOUSE}
-  - ':'
+  - {t: ▽, type: trans}
   - {t: ',', h: FUNCTION}
   - {t: H, h: window}
   - {t: J, h: ARROW}
@@ -192,7 +192,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: '&to_layer_0 LEFT_COMMAND', h: default}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -216,8 +216,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&to_layer_0 LANG2', h: default}
-  - {t: '&to_layer_0 LANG1', h: default}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
